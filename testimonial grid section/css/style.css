@@ -1,0 +1,166 @@
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+:root {
+    font-size: 13px;
+}
+
+/* hsl(217, 19%, 35%) 
+hsl(219, 29%, 14%)
+hsl(0, 0%, 100%)
+Light gray: hsl(0, 0%, 81%)
+Light grayish blue: hsl(210, 46%, 95%)
+Note for text colors:
+1. "Verified Graduate" has the same color as the person's name with 50% opacity
+2. Review paragraphs inside the quotations have the same color as well, but are at 70% opacity*/
+#box-1 {
+    background-color: hsl(263, 55%, 52%);
+    border-radius: 10px;
+    border-color: hsl(263, 55%, 52%);
+    box-shadow: -4px 4px 2px hsl(263, 55%, 52%);
+
+}
+#box-1 h4 {
+    color:hsl(210, 46%, 95%);
+}
+
+#box-1 .h5 {
+    color:hsla(210, 46%, 95%, 50%)
+}
+
+#box-1 .brief1 {
+
+    color:hsl(210, 46%, 95%);
+    
+}
+
+#box-1 .review1 {
+
+    color:hsla(210, 46%, 95%, 50%)
+
+}
+
+#box-2 {
+    background-color: hsl(217, 19%, 35%);
+    border-radius: 10px;
+    border-color:hsl(217, 19%, 35%);
+    box-shadow: -4px 4px 1px hsl(217, 19%, 35%);
+}
+
+#box-2 h4 {
+    color:hsl(0, 0%, 81%);
+
+}
+
+#box-2 .h5 {
+    
+    color:hsla(0, 0%, 81%, 50%);
+    
+}
+
+#box-2 .brief2 {
+    color:hsl(0, 0%, 81%);
+}
+
+#box-2 .review2 {
+    color:hsla(0, 0%, 81%, 50%);
+}
+#box-3 {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    border-color:hsl(0, 0%, 100%);
+    box-shadow: 3px 3px 10px hsl(0, 0%, 81%);
+    
+
+}
+
+#box-3 h4 {
+    color:hsl(217, 19%, 35%) 
+
+}
+
+#box-3 .h5 {
+    
+    color:hsla(217, 19%, 35%, 50%);
+    
+}
+
+#box-3 .brief3 {
+    color:hsl(217, 19%, 35%);
+}
+
+#box-3 .review3 {
+    color:hsla(217, 19%, 35%, 50%);
+    font-weight: 700;
+}
+
+#box-4 {
+    background-color: hsl(219, 29%, 14%);
+    border-radius: 10px;
+    border-color:hsl(219, 29%, 14%);
+    box-shadow: -3px 3px 2px hsl(219, 29%, 14%);
+
+}
+
+#box-4 h4 {
+    color:hsl(210, 46%, 95%);
+
+}
+
+#box-4 .h5 {
+    
+    color:hsla(210, 46%, 95%, 50%);
+    
+}
+
+#box-4 .brief4 {
+    color:hsl(210, 46%, 95%);
+}
+
+#box-4 .review4 {
+    color:hsla(210, 46%, 95%, 50%);
+}
+
+#box-5 {
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    border-color:hsl(0, 0%, 100%);
+    box-shadow: 3px 3px 10px hsl(0, 0%, 81%);
+}
+
+#box-5 h4 {
+    color:hsl(217, 19%, 35%) 
+
+}
+
+#box-5 .h5 {
+    
+    color:hsla(217, 19%, 35%, 50%);
+    
+}
+
+#box-5 .brief5 {
+    color:hsl(217, 19%, 35%);
+}
+
+#box-5 .review5 {
+    color:hsla(217, 19%, 35%, 50%);
+    font-weight: 700;
+}
+
+@media (min-width: 375px) and (max-width: 575px) {
+    #box-1 {
+        margin-bottom: 40px;
+    }
+    
+    #box-3 {
+        margin-bottom: 40px;
+    }
+    #box-5 {
+        margin-top: 40px;
+        margin-bottom: 10px;
+    }
+    .container-fluid {
+        padding-top: 10px;
+    }
+}
