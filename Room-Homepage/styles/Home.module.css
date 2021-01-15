@@ -1,0 +1,215 @@
+.wrap{
+  position: relative;
+}
+
+
+.navigation{
+  padding: 35px;
+  position: absolute;
+  z-index: 2;
+}
+
+.menu{
+  display: flex;
+}
+
+.logo{
+  width: auto;
+  height: 18px;
+}
+
+.hamburger{
+  display: none;
+}
+
+
+.link{
+  margin-left: 70px;
+  display: flex;
+  align-items: center;
+}
+
+.linkmobile{
+  display: none;
+}
+
+.link a {
+  text-decoration: none;
+  color: var(--background);
+  margin-right: 20px;
+  border: 2px solid transparent;
+}
+
+.link a:hover{
+  text-decoration: none;
+  border-bottom:2px solid var(--background);
+
+}
+
+
+.top{
+  display: grid;
+  grid-template-columns: 60% 40%;
+}
+
+.hero{
+  display: flex;
+  overflow: hidden;
+}
+
+.image{
+  object-fit: cover;
+  width: 100%;
+}
+
+
+.intro{
+  border: 1px solid;
+}
+
+
+.shop{
+  color:var(--dark);
+  margin-top: 30px;
+  margin-bottom: 50px;
+  letter-spacing: 0.7rem;
+  cursor: pointer;
+}
+
+.shop svg{
+  margin-left: 15px;
+}
+
+.bottom{
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+}
+
+.column1,.column3{
+  display: flex;
+}
+
+.switch{
+  background-color: var(--dark);
+  width: 120px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  bottom:0;
+  left: 60%;
+  cursor: pointer;
+}
+
+.button{
+  background-color: transparent;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  width: 50%;
+}
+
+.button:hover{
+  background-color: var(--grey);
+
+}
+
+.viewportCss {
+  overflow: hidden;
+}
+
+.containerCss{
+  display: flex;
+}
+
+.slideCss{
+  position: relative;
+  min-width: 100%;
+  display: flex;
+}
+
+
+@media only screen and (max-width:900px){
+
+  .topmobile{
+    filter: brightness(50%);
+  }
+
+  .top,.bottom{
+    grid-template-columns: repeat(1,1fr) ;
+
+  }
+
+  .navigation{
+    width: 100%;
+    padding: 0;
+  }
+
+  .top{
+    grid-template-rows: repeat(2,1fr);
+  }
+
+  .menu{
+    padding: 35px;
+    align-items: center;
+    width: 100%;
+  }
+
+  .menumobile{
+    background-color: var(--background);
+  }
+
+  .hamburger{
+    display: inline-block;
+    height: 30px;
+    width: 30px;
+    background: transparent;
+    outline: none;
+    border: none;
+    cursor: pointer;
+  }
+
+  .logo{
+    margin: 0 auto;
+  }
+
+  .link{
+    display: none;
+  }
+
+  .linkmobile{
+    display: initial;
+    margin-left: auto;
+  }
+
+  .linkmobile a {
+    text-decoration: none;
+    color: var(--dark);
+    margin-right: 30px;
+    border: 2px solid transparent;
+  }
+
+  .linkmobile a:hover{
+    text-decoration: none;
+    border-bottom:2px solid var(--dark);
+  
+  }
+
+  .bottom{
+    grid-template-rows: repeat(3,1fr);
+  }
+
+  .shop{
+    margin-top: 60px;
+  }  
+
+  .switch{
+    position: absolute;
+    bottom:50%;
+    left:unset;
+    right: 0%;
+    cursor: pointer;
+  }
+
+  
+}

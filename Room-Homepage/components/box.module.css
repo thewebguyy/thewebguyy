@@ -1,0 +1,24 @@
+.box{
+    display: flex;
+    flex-direction: column;
+}
+
+.top{
+    padding: 100px 70px;
+}
+
+.bottom{
+    padding: 60px 40px;
+}
+
+
+@media only screen and (max-width:900px){
+    .top{
+        padding: 75px 35px 0 35px;
+    }
+
+    .bottom{
+        padding: 60px 35px;
+        justify-content: center;
+    }
+}

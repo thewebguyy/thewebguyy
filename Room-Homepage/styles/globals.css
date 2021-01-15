@@ -1,0 +1,58 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+@font-face{
+  font-family: "spartan";
+  src: url("../public/fonts/Spartan-Bold.ttf");
+  font-weight: 700;
+}
+
+@font-face{
+  font-family: "spartan";
+  src: url("../public/fonts/Spartan-SemiBold.ttf");
+  font-weight: 600;
+}
+
+@font-face{
+  font-family: "spartan";
+  src: url("../public/fonts/Spartan-Medium.ttf");
+  font-weight: 500;
+}
+
+:root{
+--text: hsl(0, 0%, 63%);
+--dark: hsl(0, 0%, 0%);
+--background: hsl(0, 0%, 100%);
+--grey: hsl(0, 0%, 27%);
+}
+
+
+html{
+  font-size: 12px;
+}
+
+body{
+  font-family: "spartan";
+  font-weight: 600;
+  color:var(--text);
+  background-color: var(--background);
+}
+
+h1{
+  color:var(--dark);
+  margin-bottom: 20px;
+  font-size: 3rem;
+}
+
+h4{
+  color:var(--dark);
+  margin-bottom: 10px;
+  letter-spacing: 0.5rem;
+}
+
+p{
+  line-height: 150%;
+  font-size: 1.2rem;
+}
